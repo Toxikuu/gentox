@@ -15,12 +15,7 @@
 
 # <fs>			<mountpoint>	<type>		<opts>		<dump> <pass>
 
-#LABEL=boot		/boot		ext4		defaults	1 2
-#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		xfs		defaults		0 1
-#LABEL=swap		none		swap		sw		0 0
-#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
-
-/dev/nvme0n1p1		/boot/efi	vfat		umask=0077	0 2
-/dev/nvme0n1p2		none		swap		sw		0 0
-/dev/nvme0n1p3		/		ext4		defaults,relatime		0 1
+/dev/nvme0n1p1		/efi	  vfat		umask=0077	        0 2
+/dev/nvme0n1p2		none		swap		sw		              0 0
+/dev/nvme0n1p3		/		    ext4		defaults,relatime		0 1
 
