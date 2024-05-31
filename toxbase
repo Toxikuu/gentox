@@ -1,0 +1,10 @@
+app-misc/tmux
+app-editors/vim
+app-admini/doas
+dev-vcs/git
+sys-boot/grub
+sys-boot/efibootmgr
+sys-libs/efivar
+sys-firmware/nvidia-firmware
+sys-kernel/linux-firmware
+sys-kernel/linux-headers
